@@ -33,7 +33,7 @@ fi
 html="${HOME}/health_reports/Server-Health-Report-`hostname`-`date +%y%m%d`-`date +%H%M`.html"
 
 #Adresse email d'envoi si besoin.
-email_add="jpg@popaul77.org"
+email_add="Ici il faut mettre votre Email-Perso"
 
 #Recherche de l'espace occupé dans le dossier utilisateur.
 for i in `ls /home`; do du -sh /home/$i/* | sort -nr | grep G; done > /tmp/dir.txt
